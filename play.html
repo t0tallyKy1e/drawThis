@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<!--
+    Kyle Demers
+    04/19/2016
+    Final Project - Play Page
+-->
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/stylesheet.css" />
+        <link rel="stylesheet" type="text/css" media="only screen and (max-device-width: 10000px)" href="css/stylesheet.css" />
+        <link rel="stylesheet" type="text/css" media="only screen and (max-device-width: 480px)" href="css/mobile.css" />
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+        <script src="//cdnjs.cloudflare.com/ajax/libs/p5.js/0.5.0/p5.js"></script>
+        <script type="text/javascript" src="js/play.js"></script>
+        <script type="text/javascript" src="js/joinUser.js"></script>
+        <script type="text/javascript" src="js/updateUsers.js"></script>
+        <script type="text/javascript" src="js/sketch.js"></script>
+        
+        <title>drawThis - Play</title>
+    </head>
+    
+    <body>
+    	<header>
+        	<h1>drawThis:&nbsp;<span id="secretWord"></span></h1>
+        </header>
+        
+        <nav>
+        	<ul>
+            	<li><a href="index.html">home</a><a href="play.html">play</a><a href="add-word.html">add word</a></li>
+            </ul>
+        </nav>
+        
+        <main id="main">
+			<button id="play">Play</button>
+			<fieldset id="buttons">
+				<legend>Join A User</legend>
+				<div id="buttonSet">loading...</div>
+                <button id="pickUser">Pick User</button><button id="refresh">Refresh Users</button>
+			</fieldset>
+            
+			<div id="userStatus" value=""><span id="user">User </span><input id="userNum" type="text"></input> - <span id="status"></span> - <span id="testScript"></span></div>
+			<div id="oppSpot" value="">Opponent: User <span id="opp"></span><span id="opponent"></span><input id="oppNum" type="text"></input></div>
+			<span id="message2"></span>
+			<h2>
+				<span id="message"></span>
+			</h2>
+			<p class="game">
+				<h2>
+					<div id="category">Category:&nbsp;<span id="categoryDisplay"></span></div>
+				</h2>
+                <img id="newCanvas" src="">
+				<span id="drawSpace">
+                	
+                    <span id="canvasSpace"></span>
+				</span>
+				<div id="playerArea">Guess: <input id="userGuess" class="send" type="text"></input>
+					<button id="submit">submit</button>
+				</div>
+			</p>
+        </main>
+        
+        <footer>
+        	&copy; t0tallyKy1e 2016<input id="hidden" class="send" type="text"></input>
+        </footer>
+    </body>
+</html>

@@ -1,0 +1,138 @@
+@font-face{
+	font-family: "pixelated";
+	src: url('../../../fonts/pixelAted.eot');
+	src: url('../../../fonts/pixelAted.eot?#iefix') format('embedded-opentype'),
+		url('../../../fonts/pixelAted.woff') format('woff'),
+		url('../../../fonts/pixelAted.ttf') format("truetype");
+	font-weight: normal;
+	font-style: normal;
+	font-stretch: expanded;
+}/* close font */
+
+@font-face{
+	font-family: "t0tallyky1e";
+	src: url('../../../fonts/t0tallyKy1e.eot');
+	src: url('../../../fonts/t0tallyKy1e.eot?#iefix') format('embedded-opentype'),
+		url('../../../fonts/t0tallyKy1e.woff') format('woff'),
+		url('../../../fonts/t0tallyKy1e.ttf') format("truetype");
+	font-weight: normal;
+	font-style: normal;
+}/* close font */
+
+a:hover {
+	text-decoration: none;
+}
+
+body{
+	width: 80%;
+	margin-bottom: 10%;;
+	margin-left: 10%;
+	margin-right: 10%;
+	margin-top: 10%;;
+	font-family: pixelated;
+	background-color: #999999;
+	color: #00ff00;
+}/*close body*/
+
+canvas{
+	text-align: center;
+	border-style: solid;
+	border-color: #000;
+}/*close canvas*/
+
+fieldset{
+	text-align: center;
+	display: inline-block;
+}/*close fieldset*/
+
+footer{
+	background-color: #000000;
+	text-align: center;
+	clear: both;
+	width: 100%;
+}/*close footer*/
+
+h1, h2, h3, h4, h5, h6, p{
+	margin-bottom: 0px;
+	margin-top: 0px;
+}/*close h1*/
+
+h1{
+	font-size: 65px;
+}
+
+header{
+	background-color: #999999;
+	color: #000000;
+	font-family: "t0tallyky1e";
+	font-size: 3em;
+	padding-bottom: 2%;
+	text-align: center;
+}/*close header*/
+
+main{
+	background-color: #000000;
+	max-height: 700px;
+	min-height: 400px;
+    padding: 0px 10%;
+}/*close main*/
+
+nav{
+	background-color: #000000;
+	padding-bottom: 0;
+	text-align: center;
+}/*close nav*/
+
+nav ul{
+	list-style-type: none;
+}/*close nav ul*/
+
+nav a{
+	text-decoration: none;
+	padding-right: 3em;
+	color: #fff;
+}/*close nav a*/
+
+ul{
+	list-style-type: none;
+	margin-bottom: 0px;
+	margin-top: 0px;
+}/*close ul*/
+
+#buttons{
+	float: right;
+	width: 30%;
+}/*close buttons*/
+
+#category{
+	text-align: center;
+}/*close category*/
+
+#drawSpace{
+	float:left;
+}/*close drawSpace*/
+
+.error{
+	border-style: solid;
+	border-width: 5px;
+	border-color: #00f;
+}/*close error*/
+
+#hidden{
+	display: none;
+}/*close hidden*/
+
+#oppNum{
+	display: none;
+}/*close userNum*/
+
+#secretWord{
+	padding-top: 2em;
+}/*close secretWord*/
+
+#secretWordDisplay{
+}/*close secretWordDisplay*/
+
+#userNum{
+	display: none;
+}/*close userNum*/

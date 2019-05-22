@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<!--
+    Kyle Demers
+    04/19/2016
+    Final Project - Add Word Page
+-->
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/stylesheet.css" />
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+        <script type="text/javascript" src="js/validateAdd.js"></script>
+        <title>drawThis - Add A Word</title>
+    </head>
+    
+    <body>
+    	<header>
+        	<h1>drawThis</h1>
+        </header>
+        
+        <nav>
+        	<ul>
+            	<li><a href="index.html">home</a><a href="play.html">play</a><a href="add-word.html">add word</a></li>
+            </ul>
+        </nav>
+        
+        <main>
+        <div id="message"></div>
+        	<fieldset>
+            	<legend>Add Word</legend>
+            	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Word: <input type="text" class="validate word"></input><br>
+                Category: 
+                <select class="validate">
+  					<option value="animal">Animal</option>
+ 					<option value="clothing">Clothing</option>
+  					<option value="food">Food</option>
+  					<option value="historic place">Historic Place</option>
+                	<option value="household item">Household Item</option>
+                	<option value="music">Music</option>
+                	<option value="miscellaneous">.....Miscellaneous</option>
+                </select>
+            </fieldset><br>
+            <button id="submit">Submit</button>
+            <button id="clear">Clear</button>
+        </main>
+        
+        <footer>
+        	&copy; t0tallyKy1e 2016
+        </footer>
+    </body>
+</html>

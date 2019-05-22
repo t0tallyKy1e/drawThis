@@ -1,0 +1,29 @@
+Kyle Demers
+--------------------
+NOTES
+
+-> create table of users to display scoreboard on home page
+	-> user ID
+	-> user Name
+	-> user Score
+
+-> make some kind of scoring system... maybe 100 points for correct guess
+
+-> make user input lowercase before submitting to server
+
+-> get it to work with 1 v Everyone
+
+-> make the page a little more "pretty" once all the kinks are worked out
+
+-> save canvas as location to image to database... display saved on image on all screens. do this every second for minimal delay
+
+-> randomly switch artist to one of the contestants after correct word is guessed, but wait a few seconds so the winner can bask in the glory
+	
+-> pass word and category with JSON instead of using a string
+
+-> 'play again' button
+
+
+IF TIME ALLOWS:
+-------------------
+-> pallette for different colors
